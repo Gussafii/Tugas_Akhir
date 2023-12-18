@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* Gaya untuk dropdown */
+        .dropdown-container {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        element.style {
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+img.w-100.object-fit-cover {
+}
+.w-100 {
+    width: 100%!important;
+}
+img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+body {
+    background: #fff;
+    font-family: 'HelveticaNeue', sans-serif;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Perhutani</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Tentang Kami</div>
+    <div class="address-bar">DIVISI REGIONAL JAWA TENGAH</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Home</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html"> Us</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown-container">
+                        <a>About&#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">Visi & Misi, Dan Tata Nilai</a>
+                            <a href="saham.html">Kepemilikan Saham</a>
+                            <a href="tugas.html">Tugas dan Fungsi</a>
+                            <a href="sejarah.html">Sejarah Perusahaan</a>
+                            <a href="profil.html">Profil Perusahaan</a>
+                            <a href="tatakelola.html">Tata Kelola</a>
+                            <a href="regulasi.html">Regulasi</a>
+                            <a href="struktur.html">Struktur Organisasi</a>
+                            <a href="tanggung.html">Tanggung Jawab</a>
+                            <a href="penghargaan.html">Penghargaan</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="blog.html">Berita &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="pengumuman.html">Pengumuman</a>
+                            <a href="press.html">Press Release</a>
+                            <a href="publikasi.html">Publikasi Media</a>
+                            <a href="suara.html">Suara Rimba</a>
+                            <a href="duta.html">Duta Rimba</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                            <a href="contact.html">Unit Bisnis &#9662;</a>
+                            <div class="dropdown-content">
+                                <a href="kayu.html">Kayu</a>
+                                <a href="nonkayui.html">Non Kayu</a>
+                                <a href="ekowisata.html">Ekowisata</a>
+                                <a href="agroforestri.html">Agroforestri</a>
+                                <a href="herbal.html">Herbal</a>
+                                <a href="biomassa.html">Biomassa</a>
+                                <a href="sousi.html">Solusi Berbasis Alam</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="laporan.html">Laporan &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="tahunan.html">Laporan Tahunan</a>
+                            <a href="tjsl.html">Laporan TJSL</a>
+                            <a href="keuangan.html">Laporan Kinerja Keuangan</a>
+                            <a href="lain.html">Laporan Lain-Lain</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="karir.html">Karir</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h1 class="intro-text text-center">
+                        <strong>Tata Kelola Perusahaan</strong>
+                    </h1>
+                </div>
+                    <div class="row">
+
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Board Manual Perum Perhutani</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/open?id=1pCLwNBKSgtl5ZCURgCSyHmDGmoIXAH-R" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Pedoman Pengendalian Gratifikasi Perum Perhutani</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/file/d/1aWRU9Dp9-fN-0U9xO6Tg5Dld_IyUDcZW/view?usp=sharing" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Pedoman Sistem Pengaduan Pelanggaran  Perum Perhutani (Whistle Blowing System)</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/file/d/19XukAJBYdreh3fp_2qDjhsLI7D5yX4M2/view?usp=sharing" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Deklarasi Kebijakan FSC CoC KBM IHHBK Jawa Tengah</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/file/d/1DVz8mUuZqsh2SYSeH8_SX4AwK2_yZA0y/view?usp=share_link" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Deklarasi Kebijakan FSC CoC KBM IHHBK Jawa Timur</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/file/d/1FDvB38hjEqOBt5vJ2MVH2ZiAUIyzVIWJ/view?usp=share_link" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                        <div class="col-md-4 mb-4">
+<div class="card h-100">
+                                            <img src="https://www.perhutani.co.id/wp-content/themes/perhutani2022/assets/images/default-cover.jpg" alt="" class="w-100 object-fit-cover" height="200">
+                                            <div class="card-body">
+    <div class="fw-medium text-capitalize">Kebijakan Anti Penyuapan Direksi Tahun 2023</div>
+</div>
+<div class="card-footer bg-transparent d-grid">
+    <a href="https://drive.google.com/file/d/1Iz7Z7SlOBHEKyKCf7oT10ygufzylxi6M/view?usp=drive_link" class="btn btn-accent" target="_blank">Download</a>
+</div>
+</div>
+</div>
+                    
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Agus 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

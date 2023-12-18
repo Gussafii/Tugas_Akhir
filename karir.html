@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* Gaya untuk dropdown */
+        .dropdown-container {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/perhutani/views/img/lg.png" type="image/png">
+
+    <title>Perhutani</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Karir</div>
+    <div class="address-bar">DIVISI REGIONAL JAWA TENGAH</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Home</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html"> Us</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="about.html">About&#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">Visi & Misi, Dan Tata Nilai</a>
+                            <a href="saham.html">Kepemilikan Saham</a>
+                            <a href="tugas.html">Tugas dan Fungsi</a>
+                            <a href="sejarah.html">Sejarah Perusahaan</a>
+                            <a href="profil.html">Profil Perusahaan</a>
+                            <a href="tatakelola.html">Tata Kelola</a>
+                            <a href="regulasi.html">Regulasi</a>
+                            <a href="struktur.html">Struktur Organisasi</a>
+                            <a href="tanggung.html">Tanggung Jawab</a>
+                            <a href="penghargaan.html">Penghargaan</a>
+                        </div>
+                    </li>
+                    <li>
+                        <li class="dropdown-container">
+                        <a href="blog.html">Berita &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="pengumuman.html">Pengumuman</a>
+                            <a href="press.html">Press Release</a>
+                            <a href="publikasi.html">Publikasi Media</a>
+                            <a href="suara.html">Suara Rimba</a>
+                            <a href="duta.html">Duta Rimba</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                            <a href="contact.html">Unit Bisnis &#9662;</a>
+                            <div class="dropdown-content">
+                                <a href="kayu.html">Kayu</a>
+                                <a href="nonkayui.html">Non Kayu</a>
+                                <a href="ekowisata.html">Ekowisata</a>
+                                <a href="agroforestri.html">Agroforestri</a>
+                                <a href="herbal.html">Herbal</a>
+                                <a href="biomassa.html">Biomassa</a>
+                                <a href="sousi.html">Solusi Berbasis Alam</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="laporan.html">Laporan &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="tahunan.html">Laporan Tahunan</a>
+                            <a href="tjsl.html">Laporan TJSL</a>
+                            <a href="keuangan.html">Laporan Kinerja Keuangan</a>
+                            <a href="lain.html">Laporan Lain-Lain</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="karir.html">Karir</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Karir</strong>
+                    </h2>
+                    <hr>
+                </div>
+                        <div class="mb-4">
+                                                    <img src="https://www.perhutani.co.id/wp-content/uploads/2023/08/IMG_4654-1024x683.jpg" alt="" class="w-100">
+                                            </div>
+                        <div class="content">
+                                                <div class="fs-3 fw-bold text-center">BERGABUNGLAH BERSAMA KAMI!</div>
+                            <div class="fs-5 fw-bold text-center">JADILAH BAGIAN DARI PERUM PERHUTANI</div>
+                            
+                            <hr style="border: none; margin: 15px 0; border-bottom: 1px dashed #ddd;">
+        
+                            <div class="desc text-center">
+        
+                                                            <p style="text-align: justify">Sebagai bentuk perwujudan BUMN Untuk Indonesia, Perum Perhutani melalui Forum Human Capital Indonesia (FHCI) membuka kesempatan bagi putra-putri terbaik Indonesia untuk bergabung dan menjadi bagian dari keluarga besar Perum Perhutani melalui Program Rekrutmen Bersama BUMN tahun 2023.<br>
+        Pada tanggal 04 Agustus 2023 telah diumumkan Peserta yang dinyatakan lulus Tes Online Tahap II melalui web rekrutmen bersama.</p>
+        <p style="text-align: justify">Bagi peserta yang telah dinyatakan lulus Tes Online Tahap II Rekrutmen Bersama BUMN tahun 2023, informasi pelaksanaan Tes Kompetensi Bidang (TKB) Perum Perhutani akan disampaikan melalui email peserta yang terdaftar pada web rekrutmen bersama mulai tanggal 06 Agustus 2023 setelah ada pengumuman resmi dari FHCI.</p>
+        <p style="text-align: justify">Apabila peserta yang telah dinyatakan lulus Tes Online Tahap II belum menerima email informasi TKB agar memeriksa folder “SPAM”/folder lain atau dapat menghubungi kami melalui email <a href="mailto:sdm@perhutani.co.id">sdm@perhutani.co.id</a> dengan subjek [Rekrutmen Bersama BUMN 2023].<br>
+        Seleksi Tes Kompetensi Bidang (TKB) Perum Perhutani akan dilaksanakan mulai tanggal 08 Agustus 2023 dengan menggunakan sistem gugur.</p>
+        <p style="text-align: justify">Seluruh keputusan Tim Rekrutmen Perum Perhutani tidak dapat diganggu gugat.<br>
+        Rekrutmen Perum Perhutani tidak dipungut biaya apapun dan tidak memberikan penggantian biaya transportasi maupun akomodasi yang berkaitan dengan pelaksanaan rekrutmen. Apabila terdapat pihak-pihak yang menjanjikan/membantu kelulusan proses rekrutmen, agar diabaikan.</p>
+        <p style="text-align: justify">Salam Sukses<br>
+        Tim Rekrutmen Perum Perhutani Tahun 2023</p>
+        <p style="text-align: justify">
+                                
+                            </p></div>
+                                                                                        </div>
+                    </div>
+                </section>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

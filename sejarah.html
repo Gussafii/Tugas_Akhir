@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        /* Gaya untuk dropdown */
+        .dropdown-container {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-container:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/perhutani/views/img/lg.png" type="image/png">
+    <title>Perhutani</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Tentang Kami</div>
+    <div class="address-bar">DIVISI REGIONAL JAWA TENGAH</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Home</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html"> Us</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown-container">
+                        <a>About&#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">Visi & Misi, Dan Tata Nilai</a>
+                            <a href="saham.html">Kepemilikan Saham</a>
+                            <a href="tugas.html">Tugas dan Fungsi</a>
+                            <a href="sejarah.html">Sejarah Perusahaan</a>
+                            <a href="profil.html">Profil Perusahaan</a>
+                            <a href="tatakelola.html">Tata Kelola</a>
+                            <a href="regulasi.html">Regulasi</a>
+                            <a href="struktur.html">Struktur Organisasi</a>
+                            <a href="tanggung.html">Tanggung Jawab</a>
+                            <a href="penghargaan.html">Penghargaan</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="blog.html">Berita &#9662;</a>
+                        <div class="dropdown-content">
+                          <a href="pengumuman.html">Pengumuman</a>
+                          <a href="press.html">Press Release</a>
+                          <a href="publikasi.html">Publikasi Media</a>
+                          <a href="suara.html">Suara Rimba</a>
+                          <a href="duta.html">Duta Rimba</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                            <a href="contact.html">Unit Bisnis &#9662;</a>
+                            <div class="dropdown-content">
+                              <a href="kayu.html">Kayu</a>
+                              <a href="nonkayui.html">Non Kayu</a>
+                              <a href="ekowisata.html">Ekowisata</a>
+                              <a href="agroforestri.html">Agroforestri</a>
+                              <a href="herbal.html">Herbal</a>
+                              <a href="biomassa.html">Biomassa</a>
+                              <a href="sousi.html">Solusi Berbasis Alam</a>
+                            </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="laporan.html">Laporan &#9662;</a>
+                        <div class="dropdown-content">
+                            <a href="tahunan.html">Laporan Tahunan</a>
+                            <a href="tjsl.html">Laporan TJSL</a>
+                            <a href="keuangan.html">Laporan Kinerja Keuangan</a>
+                            <a href="lain.html">Laporan Lain-Lain</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-container">
+                        <a href="karir.html">Karir</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h1 class="intro-text text-center">
+                        <strong>Sejarah Perusahaan</strong>
+                    </h1>
+                    <hr>
+                </div>
+                <ul class="timeline">
+															                    			                    				<li>
+                    					<div class="year fw-bold">1897</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-0">
+	                    						<p>Pengelolaan Hutan di Jawa dan Madura secara modern-institusional dimulai dengan dikeluarkannya “<em>Bosreglement</em>” dan “<em>Dienst Reglement</em>” yang menetapkan aturan organisasi Jawatan Kehutanan</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-0">
+	                    						<p>Sejarah pengelolaan hutan di Jawa dan Madura, secara modern-institusional dimulai tahun 1897 dengan dikeluarkannya “Reglement voor het beheer der bosschen van den Lande op Java en Madoera”, Staatsblad 1897 nomor 61 (disingkat “Bosreglement”) selain itu terbit pula “Reglement voor den dienst van het Boschwezen op Java en Madoera” (disingkat “Dienst Reglement”) yang menetapkan aturan tentang organisasi Jawatan Kehutanan, dimana dibentuk Jawatan Kehutanan dengan Gouvernement Besluit (Keputusan Pemerintah) tanggal 9 Februari 1897 nomor 21, termuat dalam Bijblad 5164. Hutan-hutan Jati di Jawa mulai diurus dengan baik, dengan dimulainya afbakening (pemancangan), pengukuran, pemetaan dan tata hutan.</p>
+
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1913</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-1">
+	                    						<p>Penetapan “Reglement voor het beheer der bosschen van den Lande op Java en Madoera”, Staatsblad<br>
+1913 nomor 495, yang mengatur tentang “eksploitasi sendiri (eigen beheer) atau penebangan borong<br>
+(door particuliere aannemer)”.</p>
+	                    							                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1927</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-2">
+	                    						<p>Terbit Dokumen “Berpalingan met Betrekking Tot’s Lands Boschneheer op Java en Madoera” menjadi dasar pengurusan dan pengelolaan hutan di Jawa dan Madura oleh Jawatan Kehutanan (den dienst van het Boschwezen)</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-2">
+	                    						<p>Terbit Bosch_Ordonnantie, termuat dalam Staatsblad Tahun 1927 nomor 221 dan peraturan pelaksanaannya berupa Bosch_Verordening 1932, nama lengkap dokumen: “Bepalingen met Betrekking Tot’s Lands Boschbeheer op Java en Madoera” yang menjadi dasar pengurusan dan pengelolaan hutan di Jawa dan Madura oleh Jawatan Kehutanan (den dienst van het Boschwezen).</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1930</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-3">
+	                    						<p>Pengelolaan hutan Jati diserahkan kepada badan “Djatibedrijf” atau perusahaan hutan Jati dari Pemerintah (Jawatan Kehutanan)</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-3">
+	                    						<p>Pengelolaan hutan Jati diserahkan kepada badan “Djatibedrijf” atau perusahaan hutan Jati dari<br>
+Pemerintah (Jawatan Kehutanan). Perusahaan hutan Jati tersebut tidak berdiri lama, karena pada<br>
+tahun 1938 oleh Directeur van Financien (Direktur Keuangan Pemerintahan Hindia Belanda)<br>
+dinyatakan bahwa perusahaan yang bertujuan komersiil sebulat-bulatnya harus dihentikan, karena<br>
+alasan-alasan berikut:</p>
+<p>● Pemerintah, yang diwakili oleh Jawatan Kehutanan, tidak hanya berkewajiban memprodusir dan<br>
+menjadikan uang dari hasil kayu Jati saja, tetapi Jawatan Kehutanan bertugas pula memelihara<br>
+hutan-hutan yang tidak langsung memberi keuntungan kepada Pemerintah. Yang dimaksud dengan<br>
+hutan-hutan di atas, ialah hutan-hutan lindung, yang memakan amat banyak biaya sedang hasil<br>
+langsung tidak ada atau sangat sedikit;</p>
+<p>● Perusahaan hutan Jati sebagai badan swasta atau perusahaan kayu perseorangan, menganggap<br>
+hutan Jati kepunyaan Pemerintah sebagai modal yang tidak dinilai atau tidak diberi harga<br>
+(sukar untuk menetapkan harga tanah dan kayu dari hutan Jati seluas 770.000 hektar), akan<br>
+tetapi menggunakan hutan Jati itu sebagai obyek eksploitasi saja dan tidak mempengaruhi atau<br>
+mengakibatkan kerugian suatu apapun kepada tanah dan hutan Jati milik Pemerintah yang<br>
+diwakili oleh Jawatan Kehutanan, dipandang dari sudut hukum perusahaan, tindakan seperti di<br>
+atas tidaklah benar.</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1940</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-4">
+	                    						<p>Pengurusan hutan Jati dari “Djatibedrijf” dikembalikan lagi ke Jawatan Kehutanan. Pada tanggal 8 Maret 1942 Hindia Belanda jatuh ke tangan Jepang (Dai Nippon), Jawatan Kehutanannya (i.c. Boschwezen) diberi nama Ringyo Tyuoo Zimusyo (RTZ)</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-4">
+	                    						<p>Pengurusan hutan Jati dari “Djatibedrijf” dikembalikan lagi ke Jawatan Kehutanan. Pada tanggal<br>
+8 Maret 1942 Hindia Belanda jatuh ke tangan Jepang (Dai Nippon), Jawatan Kehutanannya (i.c.<br>
+Boschwezen) diberi nama Ringyo Tyuoo Zimusyo (RTZ), berturut-turut organisasi tersebut<br>
+dimasukkan kedalam Departemen Sangyobu (urusan ekonomi, Juni 1942 – Oktober 1943), kemudian<br>
+kedalam Departemen Zoosenkyoku (perkapalan, November 1943 s/d pertengahan 1945) dan setelah itu<br>
+di bawah Departemen Gunzyuseizanbu atau Departemen Produksi Kebutuhan Perang, sampai dengan<br>
+tanggal 15 Agustus 1945.</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1945</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-5">
+	                    						<p>Pasca Kemerdekaan RI Dienst van het Boschwezen, dilimpahkan kelembagaan kepada Jawatan Kehutanan Republik Indonesia</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-5">
+	                    						<p>Pasca Kemerdekaan Republik Indonesia tanggal 17 Agustus 1945 dan berdirinya Negara Indonesia<br>
+tanggal 18 Agustus 1945, hak, kewajiban, tanggung-jawab dan kewenangan pengelolaan hutan di Jawa<br>
+dan Madura oleh Jawatan Kehutanan Hindia Belanda q.q. den Dienst van het Boschwezen, dilimpahkan<br>
+secara peralihan kelembagaan kepada Jawatan Kehutanan Republik Indonesia berdasarkan Pasal II<br>
+Aturan Peralihan Undang-Undang Dasar Republik Indonesia yang berbunyi: “Segala badan negara dan<br>
+peraturan yang ada masih langsung berlaku, selama belum diadakan yang baru menurut undang-undang<br>
+dasar ini.”</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1960</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-6">
+	                    						<p>Diterbitkan Pengaturan Pemerintah Pengganti Undang-Undang Nomor 19 tahun 1960 tentang Perusahaan Negara. Untuk mewujudkan perubahan status Jawatan Kehutanan menjadi Perusahaan Negara, Pemerintah mengeluarkan Peraturan Pemerintah Nomor 17 sampai dengan Nomor 30, tahun 1961, tentang “Pembentukan Perusahaan-Perusahaan Kehutanan Negara (PERHUTANI)</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-6">
+	                    						<p>Dengan disahkannya Ketetapan MPRS No. 11/MPRS/1960, seperti tersebut dalam Lampiran Buku I,<br>
+Jilid III, Paragraf 493 dan paragraf 595, industri kehutanan ditetapkan menjadi Proyek B. Proyek<br>
+B ini merupakan sumber penghasilan untuk membiayai proyek-proyek A (Tambahan Lembaran Negara<br>
+R.I. No. 2551).Pada waktu itu direncanakan untuk mengubah status Jawatan Kehutanan menjadi<br>
+Perusahaan Negara yang bersifat komersial.Tujuannya, agar kehutanan dapat menghasilkan<br>
+keuntungan bagi kas Negara.Kemudian diterbitkan Peraturan Pemerintah Pengganti Undang-Undang<br>
+Nomor 19 tahun 1960 tentang Perusahaan Negara.</p>
+<p>Untuk mewujudkan perubahan status Jawatan Kehutanan menjadi Perusahaan Negara, Pemerintah<br>
+mengeluarkan Peraturan Pemerintah Nomor 17 sampai dengan Nomor 30, tahun 1961, tentang<br>
+”Pembentukan Perusahaan-Perusahaan Kehutanan Negara (PERHUTANI)”.Pada tahun 1961 tersebut, atas<br>
+dasar Undang-Undang Nomor 19 tahun 1960 tentang Perusahaan Negara, maka masing-masing dengan :</p>
+<p>● Peraturan Pemerintah Nomor 17 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29<br>
+Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961; didirikan Badan Pimpinan Umum<br>
+(BPU) Perusahaan Kehutanan Negara, disingkat ”BPU Perhutani”, termuat dalam Lembaran Negara<br>
+tahun 1961 nomor 38, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2172.</p>
+<p>● Peraturan Pemerintah Nomor 18 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29<br>
+Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961; didirikan Perusahaan Kehutanan<br>
+Negara Djawa Timur disingkat PN Perhutani Djawa Timur, termuat dalam Lembaran Negara tahun<br>
+1961 nomor 39, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2173.</p>
+<p>● Peraturan Pemerintah Nomor 19 tahun 1961; yang ditetapkan dan diundangkan pada tanggal 29<br>
+Maret 1961, dan berlaku surut sejak tanggal 1 Januari 1961 didirikan Perusahaan Kehutanan<br>
+Negara Djawa Tengah disingkat PN Perhutani Djawa Tengah, termuat dalam Lembaran Negara tahun<br>
+1961 nomor 40, penjelasannya termuat dalam Tambahan Lembaran Negara No. 2174.</p>
+<p>● Peraturan Pemerintah Nomor 35 tahun 1963 tentang Penyerahan Pengusahaan Hutan-hutan<br>
+Tertentu kepada Perusahaan-perusahaan Kehutanan Negara.diserahkan pengusahaan hutan-hutan<br>
+tertentu yang ditunjuk oleh Menteri Pertanian dan Agraria kepada Perusahaan-perusahaan<br>
+Kehutanan Negara, selanjutnya disingkat ”Perhutani”.</p>
+<p>Presiden Direktur BPU Perhutani, Anda Ganda Hidajat, pada forum Konperensi Dinas<br>
+Instansi-instansi Kehutanan tanggal 4 s/d 9 November 1963 di Bogor, dalam prasarannya berjudul:<br>
+“Realisasi Perhutani”, pada halaman 2 menulis bahwa: “Dalam pelaksanaan UU No. 19 Tahun 1960<br>
+tentang Pendirian Perusahaan-perusahaan Negara didirikanlah BPU Perhutani di Jakarta berdasarkan<br>
+PP No.17 tahun 1961, sedangkan pengangkatan Direksinya yang pertama dilakukan pada tanggal 19<br>
+Mei 1961 dengan Surat Keputusan Presiden R.I. No. 210/1961″. PERHUTANI-PERHUTANI daerah yang<br>
+telah direalisir pendiriannya adalah :</p>
+<p>● Perhutani Djawa Timur pada tanggal 1 Oktober 1961;<br>
+● Perhutani Djawa Tengah pada tanggal 1 Nopember 1961;<br>
+● Perhutani Kalimantan Timur pada tanggal 1 Djanuari 1962;<br>
+● Perhutani Kalimantan Selatan pada tanggal 1 Djanuari 1962;<br>
+● Perhutani Kalimantan Tengah pada tanggal 1 April 1963”.</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1972</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-7">
+	                    						<p>Diterbitkan Peraturan Pemerintah Nomor 15 Tahun 1972, meleburkan PN Jawa Timur &amp; Jawa Tengah menjadi Perum Perhutani. Pemerintah Nomor 2 Tahun 1978, menambah wilayah kerja seluruh areal hutan di Dearah Tingkat I Jawa Barat</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-7">
+	                    						<p>Pemerintah Indonesia mendirikan Perusahaan Umum Kehutanan Negara atau disingkat Perum Perhutani<br>
+berdasarkan Peraturan Pemerintah Nomor 15 Tahun 1972, ditetapkan tanggal 29 Maret 1972. Dengan<br>
+Peraturan Pemerintah Nomor 15 Tahun 1972 ini, PN Perhutani Djawa Timur yang didirikan dengan<br>
+Peraturan Pemerintah Nomor 18 tahun 1961, dan PN Perhutani Djawa Tengah yang didirikan dengan<br>
+Peraturan Pemerintah Nomor 19 tahun 1961, dilebur kedalam dan dijadikan unit produksi dari Perum<br>
+Perhutani (vide : Pasal 1 ayat (2) Peraturan Pemerintah Nomor 15 Tahun 1972).</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">1978</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-8">
+	                    						<p>Diterbitkan Peraturan Pemerintah Nomor 15 Tahun 1972, meleburkan PN Jawa Timur &amp; Jawa Tengah menjadi Perum Perhutani. Pemerintah Nomor 2 Tahun 1978, menambah wilayah kerja seluruh areal hutan di Dearah Tingkat I Jawa Barat</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-8">
+	                    						<p>Dengan Peraturan Pemerintah Nomor 2 Tahun 1978, Pemerintah menambah unit produksi Perum<br>
+Perhutani dengan wilayah kerja yang meliputi seluruh areal hutan di Daerah Tingkat I Jawa Barat<br>
+dan disebut Unit III Perum Perhutani.Dasar Hukum Perum Perhutani sebagaimana ditetapkan dalam<br>
+Peraturan Pemerintah Nomor 15 Tahun 1972 juncto Peraturan Pemerintah Nomor 2 Tahun 1978,<br>
+kemudian disempurnakan/diganti berturut-turut dengan Peraturan Pemerintah Nomor 36 Tahun 1986,<br>
+Peraturan Pemerintah Nomor 53 Tahun 1999, Peraturan Pemerintah Nomor 14 Tahun 2001, dan terakhir<br>
+dengan Peraturan Pemerintah Nomor 30 Tahun 2003.</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">2010</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-9">
+	                    						<p>Peraturan Pemerintah RI Nomor 72 Tahun 2010 dikeluarkan pemerintah Republik Indonesia sebagai<br>
+dasar hukum pelaksanaan pengelolaan sumberdaya hutan di Jawa dan Madura oleh Perum Perhutani</p>
+	                    							                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">2014</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-10">
+	                    						<p>Peraturan Pemerintah RI No 73 tahun 2014 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Perusahaan Umum (Perum) Kehutanan Negara.</p>
+<p>Perum Perhutani ditunjuk sebagai induk Holding BUMN Kehutanan (Perhutani Group) dengan anak perusahaan PT Inhutani I, PT Inhutani II, PT Inhutani III, PT Inhutani IV, PT Inhutani V</p>
+	                    							                    						
+	                    							                    					</div>
+	                    						                    					<div class="description collapse timeline-10">
+	                    						<p>Pemerintah mengeluarkan Peraturan Pemerintah RI No 73 tahun 2014 tentang Penambahan Penyertaan<br>
+Modal Negara Republik Indonesia ke Dalam Modal Perusahaan Umum (Perum) Kehutanan Negara. Sejak 2<br>
+Oktober 2014 tersebut Perum Perhutani ditunjuk Pemerintah selaku pemegang saham sebagai induk<br>
+Holding BUMN Kehutanan dengan anak perusahaan PT Inhutani I, PT Inhutani II, PT Inhutani III, PT<br>
+Inhutani IV, PT Inhutani V.</p>
+<p>Penambahan penyertaan modal negara bagi Perum Perhutani berasal dari pengalihan seluruh saham<br>
+milik Negara pada perusahaan PT. Inhutani I (didirikan berdasarkan PP No. 21/1972 di Kalimantan<br>
+Timur), PT. Inhutani II (didirikan berdasarkan PP No. 32/1974 di Kalimantan Selatan), PT.<br>
+Inhutani III (didirikan berdasarkan PP No. 31/1974 di Kalimantan Tengah), PT. Inhutani IV<br>
+(didirikan berdasarkan PP No. 22/1991 di Sumatera Utara) dan PT. Inhutani V (didirikan<br>
+berdasarkan PP No. 23/1991 di Sumatera Selatan).</p>
+	                    						
+	                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                    				<li>
+                    					<div class="year fw-bold">2022</div>
+                    					<div class="desc-wrap text-justify">
+	                    					<div class="short-desc collapse show timeline-11">
+	                    						<p>Perum Perhutani melakukan merger Anak Perusahaannya. Merger dilakukan pada PT Inhutani I, PT Inhutani II dan PT Inhutani III yang bergabung ke dalam entitas PT Inhutani I. Sedangkan PT Inhutani IV, PT Inhutani V dan PT Perhutani Anugerah Kimia bergabung ke dalam entitas PT Inhutani V.</p>
+<p>Selanjutnya bisnis wisata yang dikelola oleh Perum Perhutani dialihkelolakan secara bertahap kepada PT Palawi Risorsis yang berubah nama menjadi Econique.</p>
+	                    							                    					</div>
+	                    						                    				</div>
+                    				</li>
+                        			                    			                									</ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Agus 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
